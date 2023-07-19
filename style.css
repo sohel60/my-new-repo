@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    
+    height: 130px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-logo{
+ width:50%;   
+display: flex;
+align-items: center; 
+margin-left:240px;
+gap:5px;
+}
+.primary{
+    color: red;
+}
+.nav-link{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 240px;
+    color: white;
+    
+
+}
+.nav-link a{
+    text-decoration: none;
+}
+.follow-btn{
+    background-color:blue;
+    font-weight: 600px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    gap: 3px;
+    align-items: center;
+}
+
+
+.header-banner{
+    height: 700px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header-banner-description{
+    width: 50%;
+    height: 700px;
+    margin-left: 240px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 148px;
+    
+
+}
+.header-banner-img{
+    width: 50%;
+    height: 700px;
+    margin-right: 240px;
+    padding-bottom: 15px;
+}
+.header-banner-img img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.header-img{
+    width: 95%;
+    height: 700px;
+}
+.main-banner{
+    height: 700px;
+    background-color: saddlebrown;
+    display: flex;
+    
+    text-align: center;
+    justify-content: right;
+}
+.main-banner-img{
+    width: 50%;
+    height: 700px;
+    margin-left: 240px;
+}
+
+.main-img{
+    width: 95%;
+    height: 700px;
+
+}
+.main-banner-description{
+    width: 50%;
+    height: 700px;
+    margin-right: 240px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 148px;
+    
+
+}
+.main-body{
+    margin-top: 50px;
+    text-align: center;
+}
+.main-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    height: 400px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 10px;
+}
+.main-body-banner{
+    display: flex;
+    height: 700px;
+    margin-left: 280px;
+    margin-right: 240px;
+    margin-top: 200px;
+}
+.main-body-banner-description{
+width: 50%;
+margin-top: 200px;
+text-align: center;
+}
+.main-body-banner-img{
+width:50%;
+}
+.main-body-logo{
+
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 10px;
+    height: 400px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 50px;
+    
+    
+
+}
+.logo{
+    display: flex;
+ 
+    gap: 5px;
+    align-items: center;
+    
+
+}
+.footer-container{
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.footer-top{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    padding-top: 50px;
+}
+.footer-link{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.footer-logo-link {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.footer-logo{
+    height: 30px;
+    width: 30px;
+    background-color:red;
+}
+.footer-link a{
+    text-decoration: none;
+}
+.footer-description{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer-description a{
+    text-decoration: none;
+    
+}
+.footer-bottom{
+text-align: center;
+margin-top: 10px;
+}
+.img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.main-body-img{
+    position: relative;
+}
+.btn{
+    display: flex;
+}
